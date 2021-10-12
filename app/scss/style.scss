@@ -3,3 +3,67 @@
 @import 'libs';
 @import 'vars';
 @import 'global';
+
+.header {
+  height: 100vh;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: calc(100vh - 750px);
+  }
+
+  &__slogan {
+    width: 546px;
+     
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  &__text{
+    width: 372px;
+  }
+
+
+
+}
+
+.form {
+  background-color: #fff;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 385px;
+  min-height: 250px;
+  text-align: center;
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    margin-bottom: 20px;
+    padding: 13px;
+    border: 1px solid grey;
+  }
+
+  &__button {
+    font-family: inherit;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 6px;
+  }
+}
